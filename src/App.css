@@ -56,9 +56,9 @@ main {
     max-width: 1366px;
 }
 
-@media all and (max-width: 769px) {
+/*@media all and (max-width: 769px) {
     
-}
+}*/
 
 @media all and (max-width: 415px) {
     main{

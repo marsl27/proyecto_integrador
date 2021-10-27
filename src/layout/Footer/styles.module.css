@@ -26,9 +26,9 @@ footer>.delimiterChild {
   margin: 0 15px;
 }
 
-@media all and (max-width: 769px) {
-  /*Footer */
-}
+/*@media all and (max-width: 769px) {
+  Footer 
+}*/
 
 @media all and (max-width: 415px) {
   /*Footer */

@@ -1,0 +1,157 @@
+.inputLabel,
+.formFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container h3 {
+  color: var(--primary-color);
+  font-size: var(--heading1);
+  font-weight: var(--font-bold);
+  margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.formFlex {
+  height: 54vh;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.login{
+  height: 35vh;
+}
+
+.fullName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 34vw;
+}
+
+.inputLabel label {
+  color: var(--secondary-color);
+  font-size: var(--text2);
+  font-weight: var(--font-medium);
+}
+
+.inputLabel {
+  height: 65px;
+  justify-content: space-between;
+  
+}
+
+.inputLabel input,
+.boton button {
+  height: 40px;
+  width: 34vw;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 2px 2px #d1cfcf;
+}
+.inputLabel input{
+  padding-left: 10px;
+}
+.inputLabel input[type="text"] {
+  width: 16.5vw;
+}
+
+form ul {
+  height: 20px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  width: 34vw;
+  text-align: right;
+}
+
+.boton button,
+.inputLabel p {
+  width: 206px;
+  align-self: center;
+}
+
+.boton {
+  margin-top: 20px;
+}
+
+.inputLabel button {
+  font-size: var(--button2);
+  font-weight: var(--font-bold);
+  background-color: var(--primary-color);
+  color: white;
+}
+.inputLabel p,
+.inputLabel p a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.inputLabel p a {
+  color: #4285f4;
+}
+
+.inputError input{
+  background-color: #FFE1E1;
+  border: solid 1px red;
+}
+
+/* media queries */
+
+@media all and (max-width: 769px) {
+  .inputLabel input,
+  .boton button,
+  .inputLabel input[type="text"],
+  .error {
+    width: 45vw;
+  }
+  .formFlex{
+    height:60vh;
+  }
+
+  .fullName {
+    flex-direction: column;
+  }
+  .apellido{
+    margin-top: 5px;
+  }
+  .login{
+    height:45vh;
+  }
+ 
+}
+
+@media all and (max-width: 415px) {
+  .container {
+    height: 78vh;
+    justify-content: space-evenly;
+  }
+
+  .container h3 {
+    margin:0;
+    padding-bottom: 25px;
+  }
+  
+  .inputLabel input,
+  .boton button,
+  .inputLabel input[type="text"],
+  .error{
+    width: 72vw;
+  }
+
+}

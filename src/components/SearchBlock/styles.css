@@ -220,22 +220,3 @@ div.icon-select-box > div:nth-child(2) > div:first-child {
   }
 
 }
-/*
-@media all and (max-width: 415px) {
-  .container-calendar-selected-dates {
-    padding: 0 0 1rem 0;
-    text-align: center;
-  }
-
-  .city-icon{    
-    left: -10%;    
-  }
-
-  .iconCityBar {
-    left: 3%;    
-  }
-
-  .calendar {
-    left: 3%;
-  }
-} */

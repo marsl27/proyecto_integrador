@@ -169,7 +169,7 @@ div.icon-select-box > div:nth-child(2) > div:first-child {
 
 
 
-@media all and(max-width:1200px) {
+@media all and (max-width:1200px) {
   .calendar-button > div {
     right: 0;
   }
